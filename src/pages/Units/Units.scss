@@ -1,0 +1,51 @@
+.units-container {
+  width: auto;
+  max-width: 1200px;
+  margin: 3rem auto;
+
+  .filter {
+    display: flex;
+    flex-direction: column;
+
+    &__ages {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1rem;
+      margin: 0 0 5rem 0;
+
+      span {
+        font-family: Roboto;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+    }
+
+    &__costs {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1rem;
+
+      span {
+        font-family: Roboto;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+
+      .costs-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+      }
+    }
+  }
+
+  .units-table {
+    margin: 3rem 0;
+  }
+}

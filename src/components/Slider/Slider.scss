@@ -1,0 +1,32 @@
+.css-1v5z18m {
+  height: 100px;
+  width: 400px !important;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  span {
+    padding: 0 !important;
+  }
+}
+
+.css-53tbrc-MuiSlider-root {
+  color: #fff !important;
+}
+
+.slider-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+
+  span {
+    font-family: Roboto !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+
+    &:first-child {
+      width: 300px;
+    }
+  }
+}

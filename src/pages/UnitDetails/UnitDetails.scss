@@ -1,0 +1,47 @@
+.unit-details-container {
+  width: auto;
+  max-width: 1200px;
+  margin: 3rem auto;
+
+  .unit-details-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    gap: 1rem;
+
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      border: none;
+      background-color: #7a8d9c;
+      border-radius: 0.5rem;
+
+      svg {
+        width: 36px;
+        height: 36px;
+        border: none;
+        outline: none;
+      }
+
+      &:hover {
+        cursor: pointer;
+        border: 2px solid #fff;
+      }
+    }
+
+    .disabled {
+      opacity: 0.35;
+
+      &:hover {
+        cursor: default;
+        border: none;
+      }
+    }
+  }
+}
